@@ -11,5 +11,17 @@ export class TaskComponent {
 
   @Input() task!: Task;
 
+  // getPriorityColor(priority: string): string {
+  //   switch (priority.toLowerCase()) {
+  //     case 'high':
+  //       return 'green';
+  //     case 'medium':
+  //       return 'orange';
+  //     case 'low':
+  //       return 'red';
+  //     default:
+  //       return 'blue';
+  //   }
+  // }
 
 }
